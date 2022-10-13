@@ -7,7 +7,7 @@ public class CurrencyConvertor {
         float rupee = in.nextFloat();
         System.out.print("Enter the current value of USD in indian market: ");
         float cur = in.nextFloat();
-        float usd = rupee * cur;
+        float usd = rupee / cur;
         System.out.println(usd + " dollars");
     }
 }
