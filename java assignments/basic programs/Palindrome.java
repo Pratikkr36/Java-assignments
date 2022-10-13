@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Palindrome {
     public static void main(String[] args) {
-        System.out.println("Enter any string to check palindrome or not: ");
+        System.out.print("Enter any string to check palindrome or not: ");
         Scanner in = new Scanner(System.in);
         String given = in.next();
         System.out.println(ispalindrome(given));
